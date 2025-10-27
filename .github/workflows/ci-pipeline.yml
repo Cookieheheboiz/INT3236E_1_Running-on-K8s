@@ -47,7 +47,7 @@ jobs:
           # Sửa đường dẫn context
           context: ./hello-spring-k8s # <--- SỬA DÒNG NÀY
           # Sửa đường dẫn file Dockerfile
-          file: ./hello-spring-k8s/Dockerfile # <--- SỬA DÒNG NÀY
+          file: ./Dockerfile # <--- SỬA DÒNG NÀY
           push: true
           # Sửa tên image cho đúng
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/hello-spring-k8s:${{ env.TAG_NAME }} # <--- SỬA DÒNG NÀY

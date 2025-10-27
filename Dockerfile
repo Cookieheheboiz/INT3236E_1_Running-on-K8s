@@ -6,8 +6,7 @@ WORKDIR /app
 
 # Sao chép file .jar từ thư mục target của bạn vào container
 # Giả sử file .jar của bạn nằm trong /target
-COPY target/*.jar app.jar
-
+COPY hello-spring-k8s/target/*.jar app.jar
 # Cổng mà ứng dụng Spring Boot của bạn chạy (mặc định là 8080)
 EXPOSE 8080
 
