@@ -45,7 +45,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           # Sửa đường dẫn context
-          context: ./hello-spring-k8s # <--- SỬA DÒNG NÀY
+          context: .
           # Sửa đường dẫn file Dockerfile
           file: ./Dockerfile # <--- SỬA DÒNG NÀY
           push: true
