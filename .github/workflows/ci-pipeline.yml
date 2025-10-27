@@ -3,7 +3,9 @@ name: CI Pipeline - Build, Push, and Update Manifest
 on:
   push:
     branches:
-      - main # Chỉ chạy khi push lên nhánh 'main'
+      - master # Chỉ chạy khi push lên nhánh 'main'
+      - main
+      - test
 
 jobs:
   build-and-push-image:
