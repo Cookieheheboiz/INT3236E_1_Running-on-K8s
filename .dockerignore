@@ -1,0 +1,10 @@
+# Bỏ qua mọi thứ trong thư mục build...
+hello-spring-k8s/target/*
+
+# ...NHƯNG giữ lại (bao gồm) file .jar mà chúng ta cần!
+!hello-spring-k8s/target/*.jar
+
+# Bỏ qua các file không cần thiết khác
+.git
+.github
+.idea
