@@ -1,4 +1,4 @@
-# 27/10
+# 27/10: CI pipeline and ArgoCD
 <img width="1827" height="1318" alt="image" src="https://github.com/user-attachments/assets/620d3a5a-a778-4de1-9ea8-212fcc31a0e6" />
 
 <img width="2212" height="1393" alt="image" src="https://github.com/user-attachments/assets/7f1e5e9a-f1e1-4a55-b825-f88e02524a7c" />
