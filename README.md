@@ -1,4 +1,4 @@
-<img width="975" height="568" alt="image" src="https://github.com/user-attachments/assets/0b6304ee-c09b-4764-9a22-684fe6b5f9da" /># 03/11: Prometheus and Grafana
+# 03/11: Prometheus and Grafana
 Cài Helm và thêm Helm Repo Prometheus Community
 <img width="975" height="216" alt="image" src="https://github.com/user-attachments/assets/acff9e62-d08e-46a9-a324-4a9de8743145" />
 
